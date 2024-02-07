@@ -5,9 +5,114 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  width: 420px;
+  margin: 30px auto;
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.link {
+  color: #61dafb;
+}
+
+.navbar {}
+
+.header {
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 24px;
+}
+
+.role {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.bcard-buttons {}
+
+.bcard-buttons button {
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+
+  font-weight: 500;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.bcard-buttons button a {
+  text-decoration: none;
+  width: 115px;
+  height: 34px;
+}
+
+.bcard-buttons button span {
+  line-height: 34px;
+  color: #374151;
+}
+
+.body {
+  padding: 15px 25px;
+}
+
+.title {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.detail {
+  color: #F5F5F5;
+}
+
+.bcard-table {
+  color: #F5F5F5;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+  height: 64px;
+}
+
+.social-link {
+  font-size: 34px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
 }

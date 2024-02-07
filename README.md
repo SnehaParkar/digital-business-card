@@ -1,4 +1,4 @@
-# Digital Business Card  <sub><sup>(Scrimba React Course section 1 project)</sup></sub>
+# Digital Business Card  <sub><sup>(Scrimba React Course section 1 solo project)</sup></sub>
 
 This is a solution to the [Digital Business Card solo project on Scrimba](https://scrimba.com/learn/learnjavascript/).
 

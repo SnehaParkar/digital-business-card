@@ -7,7 +7,7 @@ export default function Body() {
 			<h3 className="title">About</h3>
 			<div className="detail">Organized and dependable candidate successful at managing multiple priorities with a positive attitude. Willing to take on added responsibilities to meet team goals. Complex problem-solver with analytical and driven mindset. Dedicated to achieving demanding development objectives according to tight schedules while producing impeccable code.</div>
 			<h3 className="title">Technical Skills</h3>
-			<table className="table table-dark bcard-table">
+			<table className="table bcard-table">
 				<tbody>
 					<tr>
 						<th>Languages</th>

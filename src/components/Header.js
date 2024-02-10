@@ -5,7 +5,9 @@ export default function Header() {
 	return (
 		<div className="">
 			<div className="header">
-				<img src={profilepic} className="profile-pic" alt="self-logo" />
+				<div className="profile-pic-box">
+					<img src={profilepic} className="profile-pic" alt="self-logo" />
+				</div>
 				<h2 className="profile-name">Sneha Parkar</h2>
 				<h4 className="role">Chief Software Architect</h4>
 				<a className="link" href="https://snehaparkar.in">snehaparkar.in</a>
